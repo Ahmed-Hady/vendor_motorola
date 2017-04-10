@@ -18,4 +18,28 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),osprey)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := MotCamera
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/priv-app/MotCamera/MotCamera.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MotoGallery
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/app/MotoGallery/MotGallery2.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := false
+include $(BUILD_PREBUILT)
+
 endif
