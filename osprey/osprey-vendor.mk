@@ -134,13 +134,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/motorola/osprey/proprietary/priv-app/MotCamera/lib/arm/libMobileOcrEngine.so:system/priv-app/MotCamera/lib/arm/libMobileOcrEngine.so \
     vendor/motorola/osprey/proprietary/priv-app/MotCamera/lib/arm/libjni_mot_mosaic.so:system/priv-app/MotCamera/lib/arm/libjni_mot_mosaic.so \
-    vendor/motorola/osprey/proprietary/app/MotoGallery/lib/arm/libcamlistener_jni.so:system/app/MotoGallery/lib/arm/libcamlistener_jni.so \
-    vendor/motorola/osprey/proprietary/app/MotoGallery/lib/arm/libjni_android_eglfence.so:system/app/MotoGallery/lib/arm/libjni_android_eglfence.so \
-    vendor/motorola/osprey/proprietary/app/MotoGallery/lib/arm/libjni_android_filtershow_filters.so:system/app/MotoGallery/lib/arm/libjni_android_filtershow_filters.so \
-    vendor/motorola/osprey/proprietary/app/MotoGallery/lib/arm/libjni_android_jpegstream.so:system/app/MotoGallery/lib/arm/libjni_android_jpegstream.so \
-    vendor/motorola/osprey/proprietary/app/MotoGallery/lib/arm/libvdlapi21decoder.so:system/app/MotoGallery/lib/arm/libvdlapi21decoder.so \
-    vendor/motorola/osprey/proprietary/app/MotoGallery/lib/arm/libvdl-mobile-engine.so:system/app/MotoGallery/lib/arm/libvdl-mobile-engine.so \
-    vendor/motorola/osprey/proprietary/app/MotoGallery/lib/arm/libvdlomxdecoder.so:system/app/MotoGallery/lib/arm/libvdlomxdecoder.so \
+    vendor/motorola/osprey/proprietary/priv-app/MotoGallery/lib/arm/libcamlistener_jni.so:system/priv-app/MotoGallery/lib/arm/libcamlistener_jni.so \
+    vendor/motorola/osprey/proprietary/priv-app/MotoGallery/lib/arm/libjni_android_eglfence.so:system/priv-app/MotoGallery/lib/arm/libjni_android_eglfence.so \
+    vendor/motorola/osprey/proprietary/priv-app/MotoGallery/lib/arm/libjni_android_filtershow_filters.so:system/priv-app/MotoGallery/lib/arm/libjni_android_filtershow_filters.so \
+    vendor/motorola/osprey/proprietary/priv-app/MotoGallery/lib/arm/libjni_android_jpegstream.so:system/priv-app/MotoGallery/lib/arm/libjni_android_jpegstream.so \
+    vendor/motorola/osprey/proprietary/priv-app/MotoGallery/lib/arm/libvdlapi21decoder.so:system/priv-app/MotoGallery/lib/arm/libvdlapi21decoder.so \
+    vendor/motorola/osprey/proprietary/priv-app/MotoGallery/lib/arm/libvdl-mobile-engine.so:system/priv-app/MotoGallery/lib/arm/libvdl-mobile-engine.so \
+    vendor/motorola/osprey/proprietary/priv-app/MotoGallery/lib/arm/libvdlomxdecoder.so:system/priv-app/MotoGallery/lib/arm/libvdlomxdecoder.so \
     vendor/motorola/osprey/proprietary/etc/permissions/com.motorola.gallery.xml:system/etc/permissions/com.motorola.gallery.xml \
     vendor/motorola/osprey/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/osprey/proprietary/framework/com.motorola.gallery.jar:system/framework/com.motorola.gallery.jar \
